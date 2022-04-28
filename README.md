@@ -6,8 +6,11 @@
 * Deposits, withdrawal.
 * Account statement (date, amount, balance) printing.
 * Data can be kept in memory (it doesn't need to be stored to a database or anything).
-* Account should be initialised wit balance of 0
+* Account should be initialised with balance of 0
 * Raise error if withdrawal attempted is greater than balance
+* Raise error if either deposit or withdraw are passed anything but a positive number
+* Automatically convert integers to floats
+
 
 
 ### Acceptance criteria
